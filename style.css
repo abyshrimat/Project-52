@@ -1,0 +1,36 @@
+h1{color:brown}
+/**{border:solid}*/
+.header{
+    background-color:bisque;
+    display:flex;
+    justify-content: space-between;
+    margin: 5px solid black;
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+.site-description{
+    display:flex;
+    justify-content: first baseline;
+    flex-direction: column;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+
+}
+p,h2{
+    text-align: center;
+    margin: 5px solid black;
+}
+body{
+    background-color: #696600;
+    border:crimson;
+    border-width: 5px;
+    margin: 5px;
+}
